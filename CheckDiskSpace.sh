@@ -1,4 +1,5 @@
 #!/bin/bash
+#kaiokelvin2000@hotmail.com
 
 UsedSpace=`df -h | awk '{print $5}' | grep -v Capacity | awk -F % '{print $1}' | head -n1`
 WarningLimit=90
